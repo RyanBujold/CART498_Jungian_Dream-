@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: dimgray;
+    font-size: large;
+}
+
+img {
+    box-shadow: 10px 10px;
+}
+
+.head {
+    color: azure;
+}
+
+.formbox {
+    width: 80%;
+    margin: auto;
+}
+
+.formtext {
+    width: 80%;
+    border-radius: 5px;
+    background-color: aquamarine;
+}
+
+.formbutton {
+    color: azure;
+    width: 80%;
+    border-radius: 5px;
+    background-color: rgb(101, 156, 138);
+}
+
+.resultbox {
+    color: azure;
+    padding: 5px;
+    border: 2px;
+    border-color: black;
+    border-radius: 5px;
+}
