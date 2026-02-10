@@ -1,1 +1,10 @@
 # CART498_Jungian_Dream-
+
+## Jungian Implementation
+This web app incorporates Carl Jung’s analyses of dreams. To prompt the AI, I focused on making sure it first understood to break down what the user described. Then after making deductions, comparing these with Jungian psychology to compare and contrast. The result is an AI that can interpret the user’s described dreams. The image generation is much simpler. It takes the description of the dream given by the user. Then depicts it in a dreamlike, Salvador Dali style. The extra artstyle is just flavor to fit with the dreams analysis aesthetic. It helps to sell that this is a dive into the strange subconscious world.
+
+## How to Use
+To use this web app, simply describe your dream in the prompt box. After hitting the ‘Analyze’ button, it will load its mystical deductions. Finally, your analysis and an image of your dream will be displayed. This can be repeated as many times as you would like. 
+
+## Lessons Learned
+To reflect on this project, it was quite difficult. Trying to wrangle the AI was tricky. It would often just start talking about Carl Jung instead of using it as a lens of analysis. It seems to have difficulty with abstract concepts. The trick to solving this was breaking things down into steps. Analyze the dream, then use a Jungian lens to analyze it again. This is the method that gave me the best results. The bigger issue overall was understanding how to work with python and a web application. There is a lot of setup using flasks that I had to figure out on my own. Mainly, decoding the image that was generated and putting it onto the webpage. Also, I had to make a new open.ai key for some reason. I’m not quite sure what happened because the old key still works on my other projects. Anyways, the web app is rough and could be improved. Things like better styling but also better prompting. I wish the AI could’ve been more brief in its synopsis but it always seems to drone on endlessly and I don’t want to generate all that text. With a larger scale project, the AI could maybe even generate a video of the dream the user describes along with a voice over giving the analysis. 
